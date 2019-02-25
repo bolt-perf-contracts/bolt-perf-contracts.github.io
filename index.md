@@ -14,7 +14,7 @@ Such understanding would, for instance, allow operators to conduct precise capac
 
 In this work, we propose the notion of _performance contracts_ for NFs. A performance contract enables users to predict and scrutinize NF performance at fine granularities without having to run them. It providers users with an abstraction that enables them to easily parameterize arbitrary input workloads, whether typical, exceptional or adversarial. Given only this abstract description of the workload and not a concrete instance, the contract predicts the performance of the NF without actually running it. The performance predictions are in terms of human-readable formulae, expressed as a function of workload and environment variables, that we together call _Performance Critical Variables (PCVs)_. 
 
-![Contracts](images/contracts.svg)
+![Contracts](./images/Contracts.svg)
 
 Additionally, we build and evaluate BOLT, a technique and tool for computing such performance contracts for the entire software stack of NFs written in C, including the core NF logic, DPDK packet processing framework, and NIC driver. 
 BOLT takes as input the NF implementation code and outputs the corresponding contract.
