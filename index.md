@@ -21,4 +21,4 @@ BOLT takes as input the NF implementation code and outputs the corresponding con
 Under the covers, it combines pre-analysis of a library of stateful NF data structures with automated symbolic execution of the NF's code.
 We evaluate BOLT on four NFs---a Maglev-like load balancer, a NAT, an LPM router, and a MAC bridge---and show that its performance contracts predict the dynamic instruction count and memory access count with a maximum gap of 7% between the real execution and the conservatively predicted upper bound. With further engineering, this gap can be reduced.
 
-If you'd like to more about Performance Contracts or BOLT, feel free to [contact us](mailto:rishabh.iyer@epfl.ch) 
+If you'd like to more about Performance Contracts or BOLT, feel free to [contact us](mailto:rishabh.iyer@epfl.ch).  
